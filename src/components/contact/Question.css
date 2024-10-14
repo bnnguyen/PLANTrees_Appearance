@@ -1,0 +1,25 @@
+.question {
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.plus {
+  width: 12px;
+}
+
+.questionText {
+  color: rgba(31, 32, 29, 0.50);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.questionAnswer {
+  color: green;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 30px;
+  width: 700px;
+}

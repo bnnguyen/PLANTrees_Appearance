@@ -1,0 +1,50 @@
+.contactInvitation {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.contactInvitation--content_container {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contactInvitation--headline {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.contactInvitation--text {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contactInvitation--buttons {
+  display: flex;
+  gap: 16px;
+}
+
+button {
+  width: 255px;
+  padding: 24px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  border: none;
+  border-radius: 8px;
+}
+
+.contactInvitation--btn1 {
+  background: var(
+    --brand-gradient,
+    linear-gradient(90deg, #12c97d, 0%, rgb(63, 217, 127) 100%)
+  );
+}
+
+.contactInvitation--btn2 {
+  background-color: rgba(31, 32, 29, 0.1);
+}

@@ -1,0 +1,73 @@
+.header {
+  background-color: #40916c;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  padding: 10px;
+  position: fixed;
+  /* min-height: 94px; */
+}
+
+.header--dummy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.header--navbar {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.header--logo {
+  cursor: pointer;
+  width: 15%;
+}
+
+.header--logo img {
+  width: 100%;
+}
+
+.header--options {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  align-items: center;
+}
+
+.header--option {
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 4px;
+  transition: color 0.1s;
+  user-select: none;
+  position: relative;
+}
+
+.header--option:hover {
+  color: lightgreen
+}
+
+.header--option:active {
+  color: #40916c;
+  background-color: white;
+}
+
+.header--option_chosen {
+  display: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 10px;
+  margin: -10px -10px;
+  border-radius: 4px;
+  color: #40916c;
+}

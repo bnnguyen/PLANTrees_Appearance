@@ -1,0 +1,27 @@
+.footer {
+  background-color: #92c0ab;
+  padding: 15px 0;
+  font-weight: bold;  
+  font-size: 20px;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: 1000;
+}
+
+.footer--contacts--icon {
+  height: 30px;
+}
+
+.footer, .footer--phone, .footer--email, .footer--contacts, .footer--contacts--icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer--phone, .footer--email, .footer--contacts--icons {
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer--contacts {
+  flex-direction: column;
+}
